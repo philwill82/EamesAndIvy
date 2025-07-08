@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #faf8f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 1rem;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f4eee3;
+    border-bottom: 4px solid #d0b26c;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2c3e50;
+    letter-spacing: 2px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #6a6a6a;
+    margin-top: 0.5rem;
+}
+
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.about h2, .contact h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.banner {
+    background-color: #e3e0d4;
+    text-align: center;
+    padding: 3rem 1rem;
+    font-style: italic;
+    color: #666;
+    border: 2px dashed #ccc;
+}
+
+form {
+    display: grid;
+    gap: 1rem;
+}
+
+input, textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+button {
+    padding: 0.75rem;
+    background-color: #d0b26c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #b6974a;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    color: #777;
+}
